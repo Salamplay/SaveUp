@@ -11,6 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Move files to root
+        run: |
+          mv .github/workflows/main.py .
+          mv .github/workflows/buildozer.spec .
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
