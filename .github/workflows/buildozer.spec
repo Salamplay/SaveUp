@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,db
 version = 1.0
 # Жестко фиксируем версии, которые 100% собираются
-requirements = python3==3.11.5,kivy==2.3.0,kivymd==1.2.0,plyer,sqlite3,requests,urllib3,chardet,idna
+requirements = python3,kivy==2.3.0,kivymd==1.1.1,plyer,sqlite3,requests,urllib3,chardet,idna,pillow
 orientation = portrait
 fullscreen = 0
 android.permissions = POST_NOTIFICATIONS,VIBRATE,WAKE_LOCK
